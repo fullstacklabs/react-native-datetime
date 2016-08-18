@@ -2,13 +2,15 @@
  * Created by CnJon on 16/1/21.
  */
 'use strict';
-
 import React,{
     Component,
+    PropTypes,
+} from 'react';
+
+import {
     DatePickerIOS,
     Dimensions,
     Navigator,
-    PropTypes,
     StyleSheet,
     Text,
     TouchableOpacity,
